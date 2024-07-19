@@ -1,5 +1,6 @@
 # Pravetz 8 psu replacement options
-Explains the different options for repairing or replacing a Pravetz 8 PSU.
+Explains the different options for repairing or replacing a Pravetz 8 PSU. Pravetz 8 is an Apple II clone.
+
 Как да поставим ново или да поправим старо захранване за Правец 8.
 
 The power supply is usually ST-41A made from SENSTRON ELEC CO.
