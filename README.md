@@ -19,7 +19,7 @@ Ypu can replace all electrolytic capacitors. I did that myself because there wer
 It provides 5VDC/5A 12VDC/2.8A -12VDC/0.5A. This is a modern power supply. It is reported that it enters in the case of ST-41A. You need to also buy a 7905 voltage regulator to create -5V from the +5V. Note that now you might have 5A on the -5V instead of 0.5A which is not a problem to make it work, but might provide a very high current in case of a problem with other components.
 
 ## 3) Buy 12V PSU + PicoPSU-80 + Adapter (PicoPSU vs Aplle II)
-This is designed for Apple II. There might be a difference in PSU current requirements between Pravetz 8 and Apple II. Pravetz 8 requires 2.5A for the 12V rail, while unclear Apple II requires only 1.5A.
+This is designed for Apple II. There might be a difference in PSU current requirements between Pravetz 8 and Apple II. Pravetz 8 requires 2.5A for the 12V rail, while unclear Apple II requires only 1.5A. After checking a bit it seems that the PicoPSU can provide 4A on the 12V so it should be OK for Pravetz as well.
 * You need a 12V 12.5A brick PSU (similar to these used for laptops)
 * The 12V PSU will power the PicoPSU-80 which will provide different output voltages on a 20 pin motherboard header
 * Next you need this converter: https://www.tindie.com/products/dekunukem/picopsu-adaptor-for-apple-ii-ii-plus-iie pluged to the PicoPSU-80 that will provide the needed voltages for Pravetz 8. Note that your output plug which goes into the motherboard might be different from the one provided in the converter kit. The kit also has some protection fuses, but I am told that this protection will not be very usefull in most cases. Link to the github project: https://github.com/dekuNukem/PicoRC/blob/master/appleii.md
@@ -27,4 +27,7 @@ This is designed for Apple II. There might be a difference in PSU current requir
 ## 4) Buy new PSU from Reactive Micro
 Link: https://www.reactivemicro.com/product/universal-psu-63-watt-switching-power-supply
 It is small and has a built in protection. Voltages are: +12v @ 3A, +5v @6A, -12v @ .8A, -5v @ .8A which are OK. It can enter into the old case and there are also some tutorials on that. It seems not expensive, but when you add the shipping and probably an import tax from USA to Europe and it becomes a bit expensive.
+
+## 5) Using an old PC PSU from Pentium and above
+Old PSUs can have all required voltages or all except -5V. But it is a good idea to test such an old PSU before using it. It should not be big in order to fit into the Pravetz and you should check its capacitors as well.
 
