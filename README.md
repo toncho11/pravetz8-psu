@@ -25,5 +25,5 @@ It provides 5VDC/5A 12VDC/2.8A -12VDC/0.5A. This is a modern power supply. It is
 
 ## 4) Buy new PSU from Reactive Micro
 Link: https://www.reactivemicro.com/product/universal-psu-63-watt-switching-power-supply
-It is small and has a built in protection. Voltafes are: +12v @ 3A, +5v @6A, -12v @ .8A, -5v @ .8A which are OK. It can enter into the old case and there are also some tutorials on that. It seems not expensive, but when you add the shipping and probably an import tax from USA to Europe and it becomes a bit expensive.
+It is small and has a built in protection. Voltages are: +12v @ 3A, +5v @6A, -12v @ .8A, -5v @ .8A which are OK. It can enter into the old case and there are also some tutorials on that. It seems not expensive, but when you add the shipping and probably an import tax from USA to Europe and it becomes a bit expensive.
 
