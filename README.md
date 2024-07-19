@@ -17,10 +17,10 @@ Ypu can replace all electrolytic capacitors. I did that myself because there wer
 ## 2) Buy MEAN WELL RT-65B 
 It provides 5VDC/5A 12VDC/2.8A -12VDC/0.5A. This is a modern power supply. It is reported that it enters in the case of ST-41A. You need to also buy a 7905 voltage regulator to create -5V form the +5V. Note that now you might have 5A on the -5V instead of 0.5A which is not a problem to make it work, but might provide a high current in case of a problem with other components.
 
-## 3) Buy 12V PSU + PicoPSU-80 + Adapter (PicoPSU към Aplle II)
+## 3) Buy 12V PSU + PicoPSU-80 + Adapter (PicoPSU vs Aplle II)
 * You need a 12V 12.5A brick PSU (similar to these used for laptops)
 * The 12V PSU will power the PicoPSU-80 which will provide different output voltages on a 20 pin motherboard header
-* Next you need this converter: https://www.tindie.com/products/dekunukem/picopsu-adaptor-for-apple-ii-ii-plus-iie pluged to the PicoPSU-80 that will provide the needed voltages for Pravetz 8. Note that your output plug which goes into the motherboard might be different from the one provided in the converter kit. Note that the kit also has some protection fuses, but I am told that this protection will not be quite usefull in most cases.
+* Next you need this converter: https://www.tindie.com/products/dekunukem/picopsu-adaptor-for-apple-ii-ii-plus-iie pluged to the PicoPSU-80 that will provide the needed voltages for Pravetz 8. Note that your output plug which goes into the motherboard might be different from the one provided in the converter kit. The kit also has some protection fuses, but I am told that this protection will not be very usefull in most cases.
 
 ## 4) Buy new PSU from Reactive Micro
 Link: https://www.reactivemicro.com/product/universal-psu-63-watt-switching-power-supply
