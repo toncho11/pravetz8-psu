@@ -30,4 +30,5 @@ It is small and has a built in protection. Voltages are: +12v @ 3A, +5v @6A, -12
 
 ## 5) Using an old PC PSU from Pentium and above
 Old PSUs can have all required voltages or all except -5V. But it is a good idea to test such an old PSU before using it. It should not be big in order to fit into the Pravetz and you should check its capacitors as well.
+* You can use the [atx4vc-atx](https://www.tindie.com/products/dekunukem/atx4vc-atx-power-on-retro-computers/) which plugs after an ATX power supply. It has a voltage regulator that produces -5V from the -12V. The only potential problem is that ATX power supplies are often 0.3A and so this means the resulting -12V and -5V will be at max 0.3A (or less) which is less than the specified 0.5A you generally need.
 
