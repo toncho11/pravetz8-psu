@@ -16,7 +16,9 @@ The voltages are:
 Ypu can replace all electrolytic capacitors. I did that myself because there were a few swollen capacitors. Replacement can be hard if you do not have the right equipment and experience. After that you can test the power supply with something that you do not need such as a lamp or mechanical HDD. Problem is that without a load and even with one the voltages are different from specification. For example you can get 11V with a HDD attached instead of 12V or -4.6V with no load on the -5V rail. The voltages are supposed to stabilize once they all have a load while attached to the real motherboard. In a nutshell it is hard to tell if it is 100% OK (especially if you are not an expert) untill you plug it into the real motherboard, but then you risk damaging the motherboard.
 
 ## 2) Buy MEAN WELL RT-65B 
-It provides 5VDC/5A 12VDC/2.8A -12VDC/0.5A. This is a modern power supply. It is reported that it enters in the case of ST-41A. You need to also buy a 7905 voltage regulator to create -5V from the -12V.
+It provides 5VDC/5A 12VDC/2.8A -12VDC/0.5A. This is a modern power supply. It is reported that it enters in the case of ST-41A. For the -5V you can:
+* use 7905 voltage regulator to create -5V from the -12V
+* DC 10-72v Down to 5V 5A 25W DC Converter
 
 ## 3) Buy 12V PSU + PicoPSU-80 + Adapter (PicoPSU vs Aplle II)
 This is designed for Apple II. There might be a difference in PSU current requirements between Pravetz 8 and Apple II. Pravetz 8 requires 2.5A for the 12V rail, while unclear Apple II requires only 1.5A. After checking a bit it seems that the PicoPSU can provide 4A on the 12V so it should be OK for Pravetz as well.
