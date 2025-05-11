@@ -18,11 +18,11 @@ Ypu can replace all electrolytic capacitors. I did that myself because there wer
 ## 2) Buy MEAN WELL RT-65B 
 It provides 5VDC/5A 12VDC/2.8A -12VDC/0.5A. This is a modern power supply. It is reported that it enters in the case of ST-41A. 
 Here is how it looks: ![image](https://github.com/user-attachments/assets/3a250e55-a1f3-4127-9c11-aa0abd914ec1)
-For the -5V you can:
-* use 7905 voltage regulator to create -5V from the -12V
-* DC 10-72v Down to 5V 5A 25W DC Converter
-
-
+For the -5V you can use the -12V with:
+* LM7905
+* TSR 2-2450 (fixed), seems like the best choice, 94% efficiency which reduces heat
+* TSR 3-2450 (adjustable)
+* MAX17577/78
 
 ## 3) Buy 12V PSU + PicoPSU-80 + Adapter (PicoPSU vs Aplle II)
 This is designed for Apple II. There might be a difference in PSU current requirements between Pravetz 8 and Apple II. Pravetz 8 requires 2.5A for the 12V rail, while unclear Apple II requires only 1.5A. After checking a bit it seems that the PicoPSU can provide 4A on the 12V so it should be OK for Pravetz as well.
