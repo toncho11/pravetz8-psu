@@ -20,6 +20,8 @@ It provides 5VDC/5A 12VDC/2.8A -12VDC/0.5A. This is a modern power supply. It is
 * use 7905 voltage regulator to create -5V from the -12V
 * DC 10-72v Down to 5V 5A 25W DC Converter
 
+Here is how it looks: https://www.sandacite.com/forum/index.php?action=dlattach;topic=16130.0;attach=153502;image
+
 ## 3) Buy 12V PSU + PicoPSU-80 + Adapter (PicoPSU vs Aplle II)
 This is designed for Apple II. There might be a difference in PSU current requirements between Pravetz 8 and Apple II. Pravetz 8 requires 2.5A for the 12V rail, while unclear Apple II requires only 1.5A. After checking a bit it seems that the PicoPSU can provide 4A on the 12V so it should be OK for Pravetz as well.
 * You need a 12V 12.5A brick PSU (similar to these used for laptops)
