@@ -20,9 +20,10 @@ It provides 5VDC/5A 12VDC/2.8A -12VDC/0.5A. This is a modern power supply. It is
 Here is how it looks: ![image](https://github.com/user-attachments/assets/3a250e55-a1f3-4127-9c11-aa0abd914ec1)
 For the -5V you can use the -12V with:
 * LM7905
-* TSR 2-2450 (fixed), seems like the best choice, 94% efficiency which reduces heat
-* TSR 3-2450 (adjustable)
+* TSR 2-2450
+* TSR 3-2450
 * MAX17577/78
+The LM7905 seems to be the simplest choice because the -5V  use 0.5A or 0.25A and thus not much heat is produced. The other options are more efficient, but also more expensive and maybe not worth it. 
 
 ## 3) Buy 12V PSU + PicoPSU-80 + Adapter (PicoPSU vs Aplle II)
 This is designed for Apple II. There might be a difference in PSU current requirements between Pravetz 8 and Apple II. Pravetz 8 requires 2.5A for the 12V rail, while unclear Apple II requires only 1.5A. After checking a bit it seems that the PicoPSU can provide 4A on the 12V so it should be OK for Pravetz as well.
